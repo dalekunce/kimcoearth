@@ -1,0 +1,26 @@
+title: 'propertymanagers'
+feature-styles:
+- name: propertymanagers
+  title: Property Managers
+  rules:
+  - symbolizers:
+    - point:
+        size: 32
+        symbols:
+        - external:
+            url: http://maps.google.com/mapfiles/kml/shapes/camera.png
+            format: image/png
+    - text:
+        label: ${SiteNo}
+        fill-color: '#000000'
+        font-family: Arial
+        font-size: 12
+        font-style: normal
+        font-weight: bold
+        halo:
+           radius: 2
+           fill-color: '#ffffff'
+           fill-opacity: 0.8
+        placement: point
+        anchor: [-0.5,0]
+        displacement: [0,10]
